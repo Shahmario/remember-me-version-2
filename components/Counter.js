@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import daisyui from 'daisyui';
+import { daisyui } from 'daisyui';
 
 function Counter(props) {
     const[count, setCount] = useState(0);
